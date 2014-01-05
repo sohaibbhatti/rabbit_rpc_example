@@ -1,0 +1,5 @@
+UserService:
+  address: amqp://localhost:5672
+  methods:
+    User: create, read, one_way_send_mail
+    Authorization: auth
